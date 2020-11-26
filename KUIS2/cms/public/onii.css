@@ -1,0 +1,84 @@
+header {
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(gbr.jpg);
+height: 100vh;
+background-color: cover;
+background-position: center;
+background-size: 1700px;
+}
+ul {
+	float: 	left;
+	margin-top: 50px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+text-decoration: none;
+padding: 5px 20px;
+border-radius: 10px;
+border: 1px solid;
+transition: 0.6s;
+margin-top: 10px;
+color: white;
+font-family: Cambria;
+	}
+ul li a:hover{
+		background-color: white; 
+		color: 	black;
+	}
+#logo img{
+float: 	right;
+width: 80px;
+height: auto;
+}
+.nama{
+position: absolute;
+	top: 70%;
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+	border: 0px;
+	border-radius: 30px;
+	width: 1290px;
+	height: 40px;
+color: 	white;
+}
+.namaa{
+	position: absolute;
+	color: white;
+	top: 10%;
+	left: 41%;font-family: Cambria;
+
+}
+#button{
+	position: absolute;
+	top: 86%;
+	left: 38%;
+	transform: translate(-50%;-50%;);
+}
+.btn{
+	border: 1px solid;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 5px;
+	margin: 100px;
+
+}
+.btn:hover{
+	background: #fff;
+	color:#000;
+}
+#footer{
+		text-align: center;
+		padding: 10px;
+		background-color:#00509c;
+		text-align: center;
+			
+}
+#prii{
+	position: absolute;
+	bottom: 40%;
+	right:55%;
+
+}
